@@ -1,0 +1,10 @@
+<p>{{player_1.name}} chooses {{ player_1.choice}} </p>
+
+<p>{{player_2.name}} chooses {{ player_2.choice}} </p>
+
+<h3>the result:</h3>
+
+{% if winner != None %}
+<p>{{winner.name}} has won by choosing {{winner.choice}}</p>
+{% else %}
+<p>Draw, no winner!</p> {% endif %} {% endblock %}
