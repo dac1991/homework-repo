@@ -1,4 +1,4 @@
-## Sports Scoring app
+<!-- ## Sports Scoring app
 
 Build an app that lets a sports fan keep track of their favourite sports league.
 
@@ -13,4 +13,4 @@ As a huge fan of [your sport], you want to stay up to date with the league. You'
 ### Possible Extensions:
 * Create a league table to see who is on top of the league
 * Add players to teams and let them have game stats (points won, fouls, etc.)
-* Anything else you can think of
+* Anything else you can think of -->
