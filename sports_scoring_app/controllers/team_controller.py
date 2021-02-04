@@ -31,7 +31,7 @@ def create_team():
 @team_blueprint.route("/teams/<id>/edit")
 def edit_team(id):
     team = team_repository.select(id)
-    return render_template('humans/edit.html', team=team)
+    return render_template('teams/edit.html', team=team)
 
 
 # Update
