@@ -7,13 +7,13 @@ import repositories.match_repository as match_repository
 match_blueprint = Blueprint("match", __name__)
 team_blueprint = Blueprint("team", __name__)
 
-@app.route('/<home_team_goals>/<away_team_goals')
-def play(home_team_goals, away_team_goals):
-    home_team = Team("Home Team", home_team_goals)
-    away_team = Team("Away Team", away_team_goals)
-    match = Match()
+# @app.route('/<home_team_goals>/<away_team_goals')
+# def play(home_team_goals, away_team_goals):
+#     home_team = Team("Home Team", home_team_goals)
+#     away_team = Team("Away Team", away_team_goals)
+#     match = Match()
 
-    winner = match.play(home_team, away_team)
+#     winner = match.play(home_team, away_team)
 
 @team_blueprint.route("/match")
 def matches():

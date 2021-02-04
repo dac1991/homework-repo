@@ -1,2 +1,2 @@
-FLASK_APP=football.py
+FLASK_APP=app.py
 FLASK_ENV=development

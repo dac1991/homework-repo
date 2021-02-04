@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2>Update a team</h2>
+<h2>Add a match</h2>
 
-<form action="/humans/{{ team.id }}" method="POST">
+<form action="/matches/{{ match.id }}" method="POST">
     <div>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name" value="{{ team.name }}">
+        <input type="text" id="name" name="name" value="{{ match.name }}">
         <input type="submit">
     </div>
 </form>
