@@ -1,11 +1,11 @@
 import psycopg2
-import psycopg2.extras
+import psycopg2.extras 
 
 def run_sql(sql, values = None):
     results = []
     conn = None
     try:
-        conn = psycopg2.connect("dbname='League'")
+        conn = psycopg2.connect("dbname='sport_scoring'")
         cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
         cur.execute(sql, values)
         conn.commit()
