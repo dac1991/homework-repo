@@ -1,0 +1,61 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem;
+
+}
+
+h1 {
+    text-align: left;
+}
+
+
+#la-liga-scorers {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+
+
+}
+
+.form-item {
+    margin-right: 2rem;
+  }
+
+.list-item {
+    border: grey solid 2px;
+    border-radius: 2px;
+    margin: 2em;
+    padding: 2em;
+
+    
+}
+
+input {
+    padding: 2px;
+    margin: 2px;
+}
+
+button {
+    padding: 2px;
+    margin: 2px;
+}
+
+.form-sort {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+    padding: 2px;
+    margin: 2px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 6px;
+    background-color: darkolivegreen;
+    border: black 2px ;
+    border-radius: 2px;
+    text-align: left;
+}
